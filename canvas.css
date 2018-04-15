@@ -1,0 +1,114 @@
+.quickstart {
+  max-width: 900px;
+}
+.quickstart div,
+.quickstart table,
+.quickstart h1,
+.quickstart h2 {
+  font-family: 'Source Sans Pro';
+  font-size: 13px;
+}
+.quickstart header {
+  display: none;
+}
+.quickstart.page {
+  padding-left: 50px;
+}
+.quickstart.page header {
+  display: inherit;
+}
+.quickstart.page .form {
+  display: none;
+}
+.quickstart h1 {
+  color: #c00;
+  font-size: 50px;
+  border: none;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.quickstart header > h2 {
+  color: #333;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -7px;
+  margin-left: 3px;
+}
+.quickstart header > img {
+  float: right;
+  width: 200px;
+  margin-right: 60px;
+  margin-top: 20px;
+}
+.quickstart .block {
+  margin-top: 50px;
+}
+.quickstart .block em {
+  font-style: normal;
+  color: #c00;
+}
+.quickstart .block > img {
+  width: 320px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+@media screen and (min-width: 900px) {
+  .quickstart .block > img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .quickstart .block > img {
+    margin-bottom: 20px;
+    display: block;
+    width: 350px;
+  }
+}
+.quickstart .block table,
+.quickstart .block td {
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+.quickstart .block td:first-child {
+  color: #c00;
+  text-align: right;
+}
+.quickstart .block td:last-child {
+  color: #666;
+  font-size: 12px;
+}
+.quickstart .block h2 {
+  margin-top: 0;
+  display: inline-block;
+  width: 120px;
+  color: #333;
+  border: none;
+  font-family: 'Source Sans Pro';
+  font-weight: 100;
+  vertical-align: top;
+  font-size: 24px;
+}
+@media screen and (min-width: 900px) {
+  .quickstart .block h2 {
+    text-align: right;
+  }
+}
+.quickstart .block p {
+  width: 350px;
+}
+.quickstart .block > div {
+  padding-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+}
+.quickstart .block > div p:first-child {
+  margin-top: 0;
+}
+.quickstart .block img.icon {
+  width: 15px;
+  position: relative;
+  top: 3px;
+}
