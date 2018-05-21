@@ -30,6 +30,11 @@ body {
   font-weight: 600;
   margin-bottom: 0;
 }
+.quickstart h2 {
+  background: none;
+  padding: 0;
+  left: 0;
+}
 .quickstart header > h2 {
   color: #333;
   font-size: 20px;
